@@ -20,6 +20,9 @@
 #include "Arduino.h"
 #include "netsocket/NetworkInterface.h"
 
+#include "utility/http_request.h"
+#include "utility/https_request.h"
+
 namespace arduino {
 
 class MbedSocketClass {

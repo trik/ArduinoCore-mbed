@@ -121,11 +121,6 @@ SocketAddress arduino::MbedSocketClass::socketAddressFromIpAddress(arduino::IPAd
 }
 
 
-// Download helper
-
-#include "utility/http_request.h"
-#include "utility/https_request.h"
-
 void MbedSocketClass::setFeedWatchdogFunc(voidFuncPtr func) {
   _feed_watchdog_func = func;
 }
